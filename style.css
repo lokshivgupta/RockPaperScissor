@@ -14,7 +14,17 @@ h1{
 .choice{
     height: 200px;
     width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: #081b31;
+
 }
 
 img{
